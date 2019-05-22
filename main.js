@@ -12,7 +12,7 @@ menuBtn.addEventListener('click', toggleMenu);
 
 function toggleMenu() {
 //найди тут ошибку
-  if (!showMenu)
+  if (showMenu)
   {
     menuBtn.classList.add('close');
     menu.classList.add('show');
